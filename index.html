@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/card.css">
+    <link rel="stylesheet" href="assets/css/input-area.css">
+    <link rel="stylesheet" href="assets/css/lista.css">
+    <link rel="shortcut icon" href="assets/img/monst4.png" type="image/x-icon">
+    <title>Lista de tareas</title>
+</head>
+<body>
+    <main class="card">
+        <img src="assets/img/logo-bg.png" alt="logo" class="card__img">
+
+        <form class="input-area">
+            <input type="text" class="input-area__input" placeholder="Nombre de la tarea" data-input>
+            <button type="submit" class="input-area__button" data-btn>Agregar <i class="fas fa-plus-circle"></i></button>
+        </form>
+        
+            <ul class="lista" data-list>
+                
+            </ul>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="./assets/js/app.js"></script>
+</body>
+</html>

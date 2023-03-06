@@ -1,0 +1,47 @@
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+    background: #edc0bf;
+    background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+    padding: 2.5rem;
+    margin: 0;
+
+    font-family: 'Inter', sans-serif;
+}
+
+.fas, .far{
+    cursor: pointer;
+}
+
+
+.fa-check-square:hover, .trashIcon:hover{
+    filter: invert(55%) sepia(28%) saturate(827%) hue-rotate(194deg) brightness(99%) contrast(98%);
+}
+
+.swal2-show{
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+
+    color: black;
+}
+
+.swal2-container.swal2-backdrop-show{
+    background: none;
+}
+
+.swal2-icon.swal2-warning {
+    border-color: #7e8dee;
+    color: #7e8dee;
+}
+
+.swal2-styled.swal2-confirm{
+    background-color: #7e8dee;
+
+}

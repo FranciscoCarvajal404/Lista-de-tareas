@@ -1,0 +1,33 @@
+.lista{
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.lista__item{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: auto;
+    gap: 5px;
+
+    padding: 1.4rem 1rem;
+
+    margin-bottom: 2rem;
+}
+
+.item__titulo{
+    margin-left: 5px;
+}
+
+.lista__item--complete{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.6);
+}
