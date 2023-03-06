@@ -38,6 +38,8 @@
     height: auto;
 
     overflow: hidden;
+
+    line-height: normal;
 }
 
 .lista__item--complete{
