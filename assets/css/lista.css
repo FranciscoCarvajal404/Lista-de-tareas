@@ -16,15 +16,28 @@
     justify-content: space-between;
 
     height: auto;
-    gap: 5px;
 
     padding: 1.4rem 1rem;
 
     margin-bottom: 2rem;
 }
 
+.lista__div{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    box-sizing: border-box;
+}
+
 .item__titulo{
-    margin-left: 5px;
+    margin-left: 16px;
+
+    display: inline-block;
+
+    width: 100%;
+    height: auto;
+
+    overflow: hidden;
 }
 
 .lista__item--complete{

@@ -19,7 +19,8 @@ export function addItem(event){
     lista.appendChild(task);
 
     //*Creando el div interno
-    const taskContent = document.createElement("div")
+    const taskContent = document.createElement("div");
+    taskContent.classList.add("lista__div");
     //*Agredando dimanicamente estado del boton check
     taskContent.appendChild(checkComplete()); 
 
